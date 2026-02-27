@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("Earthquake_alert_balanced_dataset.csv")
+df = pd.read_csv("earthquake_alert_balanced_dataset.csv")
 
 print(df.head())
 print()
