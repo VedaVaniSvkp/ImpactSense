@@ -1,5 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
+import pickle
 
 df = pd.read_csv("earthquake_alert_balanced_dataset.csv")
 
